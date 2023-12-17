@@ -1,0 +1,63 @@
+<grammar xmlns="http://relaxng.org/ns/structure/1.0"
+	datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+	<start>
+		<ref name="extentreportsContent" />
+	</start>
+	<define name="extentreportsContent">
+		<element name="extentreports">
+			<ref name="configurationContent" />
+		</element>
+	</define>
+	<define name="configurationContent">
+		<element name="configuration">
+			<ref name="themeContent" />
+			<ref name="encodingContent" />
+			<ref name="protocolContent" />
+			<ref name="documentTitleContent" />
+			<ref name="reportNameContent" />
+			<ref name="testViewChartLocationContent" />
+			<ref name="scriptsContent" />
+			<ref name="stylesContent" />
+		</element>
+	</define>
+	<define name="themeContent">
+		<element name="theme">
+			<text />
+		</element>
+	</define>
+	<define name="encodingContent">
+		<element name="encoding">
+			<text />
+		</element>
+	</define>
+	<define name="protocolContent">
+		<element name="protocol">
+			<text />
+		</element>
+	</define>
+	<define name="documentTitleContent">
+		<element name="documentTitle">
+			<text />
+		</element>
+	</define>
+	<define name="reportNameContent">
+		<element name="reportName">
+			<text />
+		</element>
+	</define>
+	<define name="testViewChartLocationContent">
+		<element name="testViewChartLocation">
+			<text />
+		</element>
+	</define>
+	<define name="scriptsContent">
+		<element name="scripts">
+			<empty />
+		</element>
+	</define>
+	<define name="stylesContent">
+		<element name="styles">
+			<empty />
+		</element>
+	</define>
+</grammar>
