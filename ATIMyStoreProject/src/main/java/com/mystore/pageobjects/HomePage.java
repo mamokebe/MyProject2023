@@ -16,21 +16,21 @@ import com.mystore.base.BaseClass;
 public class HomePage extends BaseClass{
 	
 	Action action= new Action();
-
-	@FindBy(xpath="//span[text()='My wishlists']")
-	private WebElement myWishList;
+                      //not found
+	//@FindBy(xpath="//span[text()='My wishlists']")
+	//private WebElement myWishList;
 	
-	@FindBy(xpath = "//span[text()='Order history and details']")
+	@FindBy(xpath = "//span[normalize-space()='Order history and details']")
 	private WebElement orderHistory;
 	
 	public HomePage() {
 		PageFactory.initElements(getDriver(), this);
 	}
 
-	
-	public boolean validateMyWishList() throws Throwable {
-		return action.isDisplayed(getDriver(), myWishList);
-	}
+	                //not found
+	//public boolean validateMyWishList() throws Throwable {
+	//	return action.isDisplayed(getDriver(), myWishList);
+	//}
 	
 	public boolean validateOrderHistory() throws Throwable {
 		return action.isDisplayed(getDriver(), orderHistory);

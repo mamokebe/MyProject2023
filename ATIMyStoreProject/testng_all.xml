@@ -4,7 +4,7 @@
 	<listeners>
 		<listener class-name="com.mystore.utility.ListenerClass"></listener>
 	</listeners>
-  <test thread-count="5" name="Test_All_By_Firefox">
+  <test  name="Test_All_By_Firefox">
 	  <parameter name="browser" value="FireFox"></parameter>
     <classes>
       <class name="com.mystore.testcases.LoginPageTest"/>

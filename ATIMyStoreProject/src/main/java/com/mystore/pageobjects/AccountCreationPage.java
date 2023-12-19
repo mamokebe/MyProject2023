@@ -23,7 +23,7 @@ public class AccountCreationPage extends BaseClass {
 	@FindBy(id = "uniform-id_gender1")
 	private WebElement mr;
 	
-	@FindBy(id = "id_gender2")
+	@FindBy(id = "uniform-id_gender2")
 	private WebElement mrs;
 
 	@FindBy(name = "customer_firstname")

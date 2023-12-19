@@ -23,7 +23,7 @@ public class OrderPage extends BaseClass{
 	@FindBy(id="total_price")
 	private WebElement totalPrice;
 	
-	@FindBy(xpath="//span[text()='Proceed to checkout']")
+	@FindBy(xpath="//span[normalize-space()='Proceed to checkout']")
 	private WebElement proceedToCheckOut;
 	
 	public OrderPage() {

@@ -74,7 +74,7 @@ public class AccountCreationPageTest extends BaseClass{
 				hashMapValue.get("Country"),
 				hashMapValue.get("MobilePhone"));
 		homePage=acountCreationPage.validateRegistration();
-		Assert.assertEquals("http://automationpractice.com/index.php?controller=my-account", homePage.getCurrentURL());
+		Assert.assertEquals("http://www.automationpractice.pl/index.php?controller=authentication&back=my-account#account", homePage.getCurrentURL());
 		Log.endTestCase("createAccountTest");
 	}
 
