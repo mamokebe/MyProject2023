@@ -54,7 +54,7 @@
 		<!-- nav-right -->
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<a href='#!'>
-			<span class='label blue darken-3 suite-start-time'>Dec 16, 2023 11:52:51 PM</span>
+			<span class='label blue darken-3 suite-start-time'>Dec 20, 2023 01:52:22 AM</span>
 			</a>
 		</ul>
 	</div>
@@ -113,10 +113,10 @@
                     <canvas id='parent-analysis' width='90' height='70'></canvas>
                 </div>
                 <div class='block text-small'>
-                    <span class='tooltipped' data-position='top' data-tooltip='38.462%'><span class='strong'>5</span> test(s) passed</span>
+                    <span class='tooltipped' data-position='top' data-tooltip='50%'><span class='strong'>6</span> test(s) passed</span>
                 </div>
                 <div class='block text-small'>
-                    <span class='strong tooltipped' data-position='top' data-tooltip='61.538%'>8</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
+                    <span class='strong tooltipped' data-position='top' data-tooltip='50%'>6</span> test(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
                 </div>
             </div>
         </div>
@@ -134,347 +134,17 @@
 </div>	<div class='subview-left left'>
 		<div class='view-summary'>
 			<ul id='test-collection' class='test-collection'>
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='1'>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>loginTest</span>
-						<span class='test-time'>Dec 16, 2023 11:53:00 PM</span>
-						<span class='test-status right fail'>fail</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Dec 16, 2023 11:53:00 PM</span>
-	<span class='label end-time'>Dec 16, 2023 11:53:02 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 1s+861ms</span>
-</div>
-<div class='test-steps'>
-	<table class='bordered table-results'>
-		<thead>
-			<tr>
-				<th>Status</th>
-				<th>Timestamp</th>
-				<th>Details</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>11:53:02 PM</td>
-				<td class='step-details'>
-						<span class='badge white-text red'>loginTest - Test Case Failed</span>
-					
-				</td>
-			</tr>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>11:53:02 PM</td>
-				<td class='step-details'>
-						<span class='badge white-text red'>java.lang.AssertionError: expected [http://www.automationpractice.pl/index.php?controller=my-account] but found [http://www.automationpractice.pl/index.php?controller=authentication&back=my-account] - Test Case Failed</span>
-					
-				</td>
-			</tr>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>11:53:02 PM</td>
-				<td class='step-details'>
-						ScreenShot is Attached
-					<img class='r-img' onerror='this.style.display="none"' data-featherlight='http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/ScreenShots/loginTest_20231216115302.png' src='http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/ScreenShots/loginTest_20231216115302.png' data-src='http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/ScreenShots/loginTest_20231216115302.png'>
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='2'>
-					<div class='test-heading'>
-						<span class='test-name'>endToEndTest</span>
-						<span class='test-time'>Dec 16, 2023 11:53:11 PM</span>
-						<span class='test-status right fail'>fail</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Dec 16, 2023 11:53:11 PM</span>
-	<span class='label end-time'>Dec 16, 2023 11:53:19 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 8s+26ms</span>
-</div>
-<div class='test-steps'>
-	<table class='bordered table-results'>
-		<thead>
-			<tr>
-				<th>Status</th>
-				<th>Timestamp</th>
-				<th>Details</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>11:53:19 PM</td>
-				<td class='step-details'>
-						<span class='badge white-text red'>endToEndTest - Test Case Failed</span>
-					
-				</td>
-			</tr>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>11:53:19 PM</td>
-				<td class='step-details'>
-						<span class='badge white-text red'>org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Origin element <span> is not displayed
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'LAPTOP-GLK0BSKD', ip: '192.168.1.200', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [de831930-e22c-44c5-bac5-4ca8c683891c, actions {actions=[org.openqa.selenium.interactions.Sequence@2b736fee]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:debuggerAddress: 127.0.0.1:58618, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13380, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:58618/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: de831930-e22c-44c5-bac5-4ca8c683891c - Test Case Failed</span>
-					
-				</td>
-			</tr>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>11:53:19 PM</td>
-				<td class='step-details'>
-						ScreenShot is Attached
-					<img class='r-img' onerror='this.style.display="none"' data-featherlight='http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/ScreenShots/endToEndTest_20231216115319.png' src='http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/ScreenShots/endToEndTest_20231216115319.png' data-src='http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/ScreenShots/endToEndTest_20231216115319.png'>
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='3'>
-					<div class='test-heading'>
-						<span class='test-name'>createAccountTest</span>
-						<span class='test-time'>Dec 16, 2023 11:53:28 PM</span>
-						<span class='test-status right fail'>fail</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Dec 16, 2023 11:53:28 PM</span>
-	<span class='label end-time'>Dec 16, 2023 11:53:39 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 11s+392ms</span>
-</div>
-<div class='test-steps'>
-	<table class='bordered table-results'>
-		<thead>
-			<tr>
-				<th>Status</th>
-				<th>Timestamp</th>
-				<th>Details</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>11:53:39 PM</td>
-				<td class='step-details'>
-						<span class='badge white-text red'>createAccountTest - Test Case Failed</span>
-					
-				</td>
-			</tr>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>11:53:39 PM</td>
-				<td class='step-details'>
-						<span class='badge white-text red'>org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'LAPTOP-GLK0BSKD', ip: '192.168.1.200', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [ae0e800f-42ae-4a77-bbf6-a2c5e327e8ac, actions {actions=[org.openqa.selenium.interactions.Sequence@373afd6c]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:debuggerAddress: 127.0.0.1:52366, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19680, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:52366/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ae0e800f-42ae-4a77-bbf6-a2c5e327e8ac - Test Case Failed</span>
-					
-				</td>
-			</tr>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>11:53:39 PM</td>
-				<td class='step-details'>
-						ScreenShot is Attached
-					<img class='r-img' onerror='this.style.display="none"' data-featherlight='http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/ScreenShots/createAccountTest_20231216115339.png' src='http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/ScreenShots/createAccountTest_20231216115339.png' data-src='http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/ScreenShots/createAccountTest_20231216115339.png'>
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='4'>
-					<div class='test-heading'>
-						<span class='test-name'>createAccountTest</span>
-						<span class='test-time'>Dec 16, 2023 11:53:47 PM</span>
-						<span class='test-status right fail'>fail</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Dec 16, 2023 11:53:47 PM</span>
-	<span class='label end-time'>Dec 16, 2023 11:53:58 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 11s+380ms</span>
-</div>
-<div class='test-steps'>
-	<table class='bordered table-results'>
-		<thead>
-			<tr>
-				<th>Status</th>
-				<th>Timestamp</th>
-				<th>Details</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>11:53:58 PM</td>
-				<td class='step-details'>
-						<span class='badge white-text red'>createAccountTest - Test Case Failed</span>
-					
-				</td>
-			</tr>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>11:53:58 PM</td>
-				<td class='step-details'>
-						<span class='badge white-text red'>org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'LAPTOP-GLK0BSKD', ip: '192.168.1.200', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [42b5394a-d6d5-4ced-9067-85ec65683cbc, actions {actions=[org.openqa.selenium.interactions.Sequence@62b6c045]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:debuggerAddress: 127.0.0.1:64116, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 25428, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:64116/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 42b5394a-d6d5-4ced-9067-85ec65683cbc - Test Case Failed</span>
-					
-				</td>
-			</tr>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>11:53:58 PM</td>
-				<td class='step-details'>
-						ScreenShot is Attached
-					<img class='r-img' onerror='this.style.display="none"' data-featherlight='http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/ScreenShots/createAccountTest_20231216115358.png' src='http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/ScreenShots/createAccountTest_20231216115358.png' data-src='http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/ScreenShots/createAccountTest_20231216115358.png'>
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='5'>
-					<div class='test-heading'>
-						<span class='test-name'>createAccountTest</span>
-						<span class='test-time'>Dec 16, 2023 11:54:07 PM</span>
-						<span class='test-status right fail'>fail</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Dec 16, 2023 11:54:07 PM</span>
-	<span class='label end-time'>Dec 16, 2023 11:54:18 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 11s+517ms</span>
-</div>
-<div class='test-steps'>
-	<table class='bordered table-results'>
-		<thead>
-			<tr>
-				<th>Status</th>
-				<th>Timestamp</th>
-				<th>Details</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>11:54:18 PM</td>
-				<td class='step-details'>
-						<span class='badge white-text red'>createAccountTest - Test Case Failed</span>
-					
-				</td>
-			</tr>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>11:54:18 PM</td>
-				<td class='step-details'>
-						<span class='badge white-text red'>org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
-Build info: version: '4.4.0', revision: 'e5c75ed026a'
-System info: host: 'LAPTOP-GLK0BSKD', ip: '192.168.1.200', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [f2a2c0e2-bf64-413d-8959-af64dc35f4a4, actions {actions=[org.openqa.selenium.interactions.Sequence@15d236fd]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:debuggerAddress: 127.0.0.1:55050, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5192, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:55050/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: f2a2c0e2-bf64-413d-8959-af64dc35f4a4 - Test Case Failed</span>
-					
-				</td>
-			</tr>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>11:54:18 PM</td>
-				<td class='step-details'>
-						ScreenShot is Attached
-					<img class='r-img' onerror='this.style.display="none"' data-featherlight='http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/ScreenShots/createAccountTest_20231216115418.png' src='http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/ScreenShots/createAccountTest_20231216115418.png' data-src='http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/ScreenShots/createAccountTest_20231216115418.png'>
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='6'>
-					<div class='test-heading'>
-						<span class='test-name'>verifyCreateAccountPageTest</span>
-						<span class='test-time'>Dec 16, 2023 11:54:26 PM</span>
-						<span class='test-status right fail'>fail</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Dec 16, 2023 11:54:26 PM</span>
-	<span class='label end-time'>Dec 16, 2023 11:54:37 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 11s+351ms</span>
-</div>
-<div class='test-steps'>
-	<table class='bordered table-results'>
-		<thead>
-			<tr>
-				<th>Status</th>
-				<th>Timestamp</th>
-				<th>Details</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>11:54:37 PM</td>
-				<td class='step-details'>
-						<span class='badge white-text red'>verifyCreateAccountPageTest - Test Case Failed</span>
-					
-				</td>
-			</tr>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>11:54:37 PM</td>
-				<td class='step-details'>
-						<span class='badge white-text red'>java.lang.AssertionError: expected [true] but found [false] - Test Case Failed</span>
-					
-				</td>
-			</tr>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>11:54:37 PM</td>
-				<td class='step-details'>
-						ScreenShot is Attached
-					<img class='r-img' onerror='this.style.display="none"' data-featherlight='http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/ScreenShots/verifyCreateAccountPageTest_20231216115437.png' src='http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/ScreenShots/verifyCreateAccountPageTest_20231216115437.png' data-src='http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/ScreenShots/verifyCreateAccountPageTest_20231216115437.png'>
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='7'>
-					<div class='test-heading'>
-						<span class='test-name'>verifyLogo</span>
-						<span class='test-time'>Dec 16, 2023 11:54:45 PM</span>
+						<span class='test-time'>Dec 20, 2023 01:52:32 AM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Dec 16, 2023 11:54:45 PM</span>
-	<span class='label end-time'>Dec 16, 2023 11:54:45 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+78ms</span>
+	<span class='label start-time'>Dec 20, 2023 01:52:32 AM</span>
+	<span class='label end-time'>Dec 20, 2023 01:52:34 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 1s+703ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -488,7 +158,321 @@ Session ID: f2a2c0e2-bf64-413d-8959-af64dc35f4a4 - Test Case Failed</span>
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>11:54:45 PM</td>
+				<td class='timestamp'>1:52:34 AM</td>
+				<td class='step-details'>
+						Pass Test case is: loginTest
+					
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='2'>
+					<div class='test-heading'>
+						<span class='test-name'>endToEndTest</span>
+						<span class='test-time'>Dec 20, 2023 01:52:43 AM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 20, 2023 01:52:43 AM</span>
+	<span class='label end-time'>Dec 20, 2023 01:52:51 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 8s+251ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>1:52:51 AM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>endToEndTest - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>1:52:51 AM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Origin element <span> is not displayed
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'LAPTOP-GLK0BSKD', ip: '192.168.1.200', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [b8e4e31f-9c6b-45a3-a588-082150cac24b, actions {actions=[org.openqa.selenium.interactions.Sequence@78b7f805]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:61835, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23380, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:61835/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b8e4e31f-9c6b-45a3-a588-082150cac24b - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>1:52:51 AM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='http://localhost:8080/job/MyStoreProject/ws/MyStoreProject/ScreenShots/endToEndTest_20231220015251.png' src='http://localhost:8080/job/MyStoreProject/ws/MyStoreProject/ScreenShots/endToEndTest_20231220015251.png' data-src='http://localhost:8080/job/MyStoreProject/ws/MyStoreProject/ScreenShots/endToEndTest_20231220015251.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='3'>
+					<div class='test-heading'>
+						<span class='test-name'>createAccountTest</span>
+						<span class='test-time'>Dec 20, 2023 01:53:01 AM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 20, 2023 01:53:01 AM</span>
+	<span class='label end-time'>Dec 20, 2023 01:53:12 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 11s+568ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>1:53:12 AM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>createAccountTest - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>1:53:12 AM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'LAPTOP-GLK0BSKD', ip: '192.168.1.200', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [8b6348e0-8a70-440c-af6b-e22618315e17, actions {actions=[org.openqa.selenium.interactions.Sequence@3daf03d8]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:51181, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 25988, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:51181/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8b6348e0-8a70-440c-af6b-e22618315e17 - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>1:53:12 AM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='http://localhost:8080/job/MyStoreProject/ws/MyStoreProject/ScreenShots/createAccountTest_20231220015312.png' src='http://localhost:8080/job/MyStoreProject/ws/MyStoreProject/ScreenShots/createAccountTest_20231220015312.png' data-src='http://localhost:8080/job/MyStoreProject/ws/MyStoreProject/ScreenShots/createAccountTest_20231220015312.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='4'>
+					<div class='test-heading'>
+						<span class='test-name'>createAccountTest</span>
+						<span class='test-time'>Dec 20, 2023 01:53:22 AM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 20, 2023 01:53:22 AM</span>
+	<span class='label end-time'>Dec 20, 2023 01:53:33 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 11s+465ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>1:53:33 AM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>createAccountTest - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>1:53:33 AM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'LAPTOP-GLK0BSKD', ip: '192.168.1.200', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [3023a038-9d41-435d-b4d7-faaefc0ffe00, actions {actions=[org.openqa.selenium.interactions.Sequence@6b27b2d0]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:57632, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 27824, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:57632/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3023a038-9d41-435d-b4d7-faaefc0ffe00 - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>1:53:33 AM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='http://localhost:8080/job/MyStoreProject/ws/MyStoreProject/ScreenShots/createAccountTest_20231220015333.png' src='http://localhost:8080/job/MyStoreProject/ws/MyStoreProject/ScreenShots/createAccountTest_20231220015333.png' data-src='http://localhost:8080/job/MyStoreProject/ws/MyStoreProject/ScreenShots/createAccountTest_20231220015333.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='5'>
+					<div class='test-heading'>
+						<span class='test-name'>createAccountTest</span>
+						<span class='test-time'>Dec 20, 2023 01:53:42 AM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 20, 2023 01:53:42 AM</span>
+	<span class='label end-time'>Dec 20, 2023 01:53:54 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 11s+504ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>1:53:53 AM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>createAccountTest - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>1:53:53 AM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'LAPTOP-GLK0BSKD', ip: '192.168.1.200', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [c3d72e7c-abaa-4357-beba-9d69d5bf62c0, actions {actions=[org.openqa.selenium.interactions.Sequence@49232c6f]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:56905, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 27220, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:56905/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c3d72e7c-abaa-4357-beba-9d69d5bf62c0 - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>1:53:54 AM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='http://localhost:8080/job/MyStoreProject/ws/MyStoreProject/ScreenShots/createAccountTest_20231220015353.png' src='http://localhost:8080/job/MyStoreProject/ws/MyStoreProject/ScreenShots/createAccountTest_20231220015353.png' data-src='http://localhost:8080/job/MyStoreProject/ws/MyStoreProject/ScreenShots/createAccountTest_20231220015353.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  fail' status='fail' bdd='false' test-id='6'>
+					<div class='test-heading'>
+						<span class='test-name'>verifyCreateAccountPageTest</span>
+						<span class='test-time'>Dec 20, 2023 01:54:02 AM</span>
+						<span class='test-status right fail'>fail</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 20, 2023 01:54:02 AM</span>
+	<span class='label end-time'>Dec 20, 2023 01:54:13 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 11s+616ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>1:54:13 AM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>verifyCreateAccountPageTest - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>1:54:13 AM</td>
+				<td class='step-details'>
+						<span class='badge white-text red'>java.lang.AssertionError: expected [true] but found [false] - Test Case Failed</span>
+					
+				</td>
+			</tr>
+			<tr class='log' status='fail'>
+				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
+				<td class='timestamp'>1:54:13 AM</td>
+				<td class='step-details'>
+						ScreenShot is Attached
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='http://localhost:8080/job/MyStoreProject/ws/MyStoreProject/ScreenShots/verifyCreateAccountPageTest_20231220015413.png' src='http://localhost:8080/job/MyStoreProject/ws/MyStoreProject/ScreenShots/verifyCreateAccountPageTest_20231220015413.png' data-src='http://localhost:8080/job/MyStoreProject/ws/MyStoreProject/ScreenShots/verifyCreateAccountPageTest_20231220015413.png'>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</div>
+					</div>
+				</li>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='7'>
+					<div class='test-heading'>
+						<span class='test-name'>verifyLogo</span>
+						<span class='test-time'>Dec 20, 2023 01:54:22 AM</span>
+						<span class='test-status right pass'>pass</span>
+					</div>
+					<div class='test-content hide'>
+<div class='test-time-info'>
+	<span class='label start-time'>Dec 20, 2023 01:54:22 AM</span>
+	<span class='label end-time'>Dec 20, 2023 01:54:22 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+83ms</span>
+</div>
+<div class='test-steps'>
+	<table class='bordered table-results'>
+		<thead>
+			<tr>
+				<th>Status</th>
+				<th>Timestamp</th>
+				<th>Details</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr class='log' status='pass'>
+				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
+				<td class='timestamp'>1:54:22 AM</td>
 				<td class='step-details'>
 						Pass Test case is: verifyLogo
 					
@@ -502,13 +486,13 @@ Session ID: f2a2c0e2-bf64-413d-8959-af64dc35f4a4 - Test Case Failed</span>
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='8'>
 					<div class='test-heading'>
 						<span class='test-name'>verifyTitle</span>
-						<span class='test-time'>Dec 16, 2023 11:54:54 PM</span>
+						<span class='test-time'>Dec 20, 2023 01:54:31 AM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Dec 16, 2023 11:54:54 PM</span>
-	<span class='label end-time'>Dec 16, 2023 11:54:54 PM</span>
+	<span class='label start-time'>Dec 20, 2023 01:54:31 AM</span>
+	<span class='label end-time'>Dec 20, 2023 01:54:31 AM</span>
 	<span class='label time-taken grey lighten-1 white-text'>0h 0m 0s+13ms</span>
 </div>
 <div class='test-steps'>
@@ -523,7 +507,7 @@ Session ID: f2a2c0e2-bf64-413d-8959-af64dc35f4a4 - Test Case Failed</span>
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>11:54:54 PM</td>
+				<td class='timestamp'>1:54:31 AM</td>
 				<td class='step-details'>
 						Pass Test case is: verifyTitle
 					
@@ -537,14 +521,14 @@ Session ID: f2a2c0e2-bf64-413d-8959-af64dc35f4a4 - Test Case Failed</span>
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='9'>
 					<div class='test-heading'>
 						<span class='test-name'>productAvailabilityTest</span>
-						<span class='test-time'>Dec 16, 2023 11:55:02 PM</span>
+						<span class='test-time'>Dec 20, 2023 01:54:39 AM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Dec 16, 2023 11:55:02 PM</span>
-	<span class='label end-time'>Dec 16, 2023 11:55:05 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+385ms</span>
+	<span class='label start-time'>Dec 20, 2023 01:54:39 AM</span>
+	<span class='label end-time'>Dec 20, 2023 01:54:42 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 3s+404ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -558,7 +542,7 @@ Session ID: f2a2c0e2-bf64-413d-8959-af64dc35f4a4 - Test Case Failed</span>
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>11:55:05 PM</td>
+				<td class='timestamp'>1:54:42 AM</td>
 				<td class='step-details'>
 						Pass Test case is: productAvailabilityTest
 					
@@ -572,14 +556,14 @@ Session ID: f2a2c0e2-bf64-413d-8959-af64dc35f4a4 - Test Case Failed</span>
 				<li class='test displayed active  pass' status='pass' bdd='false' test-id='10'>
 					<div class='test-heading'>
 						<span class='test-name'>orderHistoryandDetailsTest</span>
-						<span class='test-time'>Dec 16, 2023 11:55:13 PM</span>
+						<span class='test-time'>Dec 20, 2023 01:54:51 AM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Dec 16, 2023 11:55:13 PM</span>
-	<span class='label end-time'>Dec 16, 2023 11:55:15 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+207ms</span>
+	<span class='label start-time'>Dec 20, 2023 01:54:51 AM</span>
+	<span class='label end-time'>Dec 20, 2023 01:54:53 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 2s+461ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -593,7 +577,7 @@ Session ID: f2a2c0e2-bf64-413d-8959-af64dc35f4a4 - Test Case Failed</span>
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>11:55:15 PM</td>
+				<td class='timestamp'>1:54:53 AM</td>
 				<td class='step-details'>
 						Pass Test case is: orderHistoryandDetailsTest
 					
@@ -606,66 +590,15 @@ Session ID: f2a2c0e2-bf64-413d-8959-af64dc35f4a4 - Test Case Failed</span>
 				</li>
 				<li class='test displayed active  fail' status='fail' bdd='false' test-id='11'>
 					<div class='test-heading'>
-						<span class='test-name'>wishListTest</span>
-						<span class='test-time'>Dec 16, 2023 11:55:24 PM</span>
-						<span class='test-status right fail'>fail</span>
-					</div>
-					<div class='test-content hide'>
-<div class='test-time-info'>
-	<span class='label start-time'>Dec 16, 2023 11:55:24 PM</span>
-	<span class='label end-time'>Dec 16, 2023 11:55:36 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 12s+35ms</span>
-</div>
-<div class='test-steps'>
-	<table class='bordered table-results'>
-		<thead>
-			<tr>
-				<th>Status</th>
-				<th>Timestamp</th>
-				<th>Details</th>
-			</tr>
-		</thead>
-		<tbody>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>11:55:36 PM</td>
-				<td class='step-details'>
-						<span class='badge white-text red'>wishListTest - Test Case Failed</span>
-					
-				</td>
-			</tr>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>11:55:36 PM</td>
-				<td class='step-details'>
-						<span class='badge white-text red'>java.lang.AssertionError: expected [true] but found [false] - Test Case Failed</span>
-					
-				</td>
-			</tr>
-			<tr class='log' status='fail'>
-				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>11:55:36 PM</td>
-				<td class='step-details'>
-						ScreenShot is Attached
-					<img class='r-img' onerror='this.style.display="none"' data-featherlight='http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/ScreenShots/wishListTest_20231216115536.png' src='http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/ScreenShots/wishListTest_20231216115536.png' data-src='http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/ScreenShots/wishListTest_20231216115536.png'>
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
-					</div>
-				</li>
-				<li class='test displayed active  fail' status='fail' bdd='false' test-id='12'>
-					<div class='test-heading'>
 						<span class='test-name'>verifyTotalPrice</span>
-						<span class='test-time'>Dec 16, 2023 11:55:44 PM</span>
+						<span class='test-time'>Dec 20, 2023 01:55:02 AM</span>
 						<span class='test-status right fail'>fail</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Dec 16, 2023 11:55:44 PM</span>
-	<span class='label end-time'>Dec 16, 2023 11:55:52 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 7s+675ms</span>
+	<span class='label start-time'>Dec 20, 2023 01:55:02 AM</span>
+	<span class='label end-time'>Dec 20, 2023 01:55:10 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 7s+883ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -679,7 +612,7 @@ Session ID: f2a2c0e2-bf64-413d-8959-af64dc35f4a4 - Test Case Failed</span>
 		<tbody>
 			<tr class='log' status='fail'>
 				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>11:55:52 PM</td>
+				<td class='timestamp'>1:55:10 AM</td>
 				<td class='step-details'>
 						<span class='badge white-text red'>verifyTotalPrice - Test Case Failed</span>
 					
@@ -687,24 +620,24 @@ Session ID: f2a2c0e2-bf64-413d-8959-af64dc35f4a4 - Test Case Failed</span>
 			</tr>
 			<tr class='log' status='fail'>
 				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>11:55:52 PM</td>
+				<td class='timestamp'>1:55:10 AM</td>
 				<td class='step-details'>
 						<span class='badge white-text red'>org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Origin element <span> is not displayed
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'LAPTOP-GLK0BSKD', ip: '192.168.1.200', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [58a54297-2953-4b9e-baf1-39e34bdc7d49, actions {actions=[org.openqa.selenium.interactions.Sequence@29bd2796]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:debuggerAddress: 127.0.0.1:57365, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 26424, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:57365/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 58a54297-2953-4b9e-baf1-39e34bdc7d49 - Test Case Failed</span>
+Command: [16fc4655-5ae5-4942-b516-1221973c07d7, actions {actions=[org.openqa.selenium.interactions.Sequence@571d0925]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:63514, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19260, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:63514/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 16fc4655-5ae5-4942-b516-1221973c07d7 - Test Case Failed</span>
 					
 				</td>
 			</tr>
 			<tr class='log' status='fail'>
 				<td class='status fail' title='fail' alt='fail'><i class='material-icons'>cancel</i></td>
-				<td class='timestamp'>11:55:52 PM</td>
+				<td class='timestamp'>1:55:10 AM</td>
 				<td class='step-details'>
 						ScreenShot is Attached
-					<img class='r-img' onerror='this.style.display="none"' data-featherlight='http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/ScreenShots/verifyTotalPrice_20231216115552.png' src='http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/ScreenShots/verifyTotalPrice_20231216115552.png' data-src='http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/ScreenShots/verifyTotalPrice_20231216115552.png'>
+					<img class='r-img' onerror='this.style.display="none"' data-featherlight='http://localhost:8080/job/MyStoreProject/ws/MyStoreProject/ScreenShots/verifyTotalPrice_20231220015510.png' src='http://localhost:8080/job/MyStoreProject/ws/MyStoreProject/ScreenShots/verifyTotalPrice_20231220015510.png' data-src='http://localhost:8080/job/MyStoreProject/ws/MyStoreProject/ScreenShots/verifyTotalPrice_20231220015510.png'>
 				</td>
 			</tr>
 		</tbody>
@@ -712,17 +645,17 @@ Session ID: 58a54297-2953-4b9e-baf1-39e34bdc7d49 - Test Case Failed</span>
 </div>
 					</div>
 				</li>
-				<li class='test displayed active  pass' status='pass' bdd='false' test-id='13'>
+				<li class='test displayed active  pass' status='pass' bdd='false' test-id='12'>
 					<div class='test-heading'>
 						<span class='test-name'>addToCartTest</span>
-						<span class='test-time'>Dec 16, 2023 11:56:00 PM</span>
+						<span class='test-time'>Dec 20, 2023 01:55:18 AM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='test-time-info'>
-	<span class='label start-time'>Dec 16, 2023 11:56:00 PM</span>
-	<span class='label end-time'>Dec 16, 2023 11:56:07 PM</span>
-	<span class='label time-taken grey lighten-1 white-text'>0h 0m 7s+24ms</span>
+	<span class='label start-time'>Dec 20, 2023 01:55:18 AM</span>
+	<span class='label end-time'>Dec 20, 2023 01:55:25 AM</span>
+	<span class='label time-taken grey lighten-1 white-text'>0h 0m 7s+125ms</span>
 </div>
 <div class='test-steps'>
 	<table class='bordered table-results'>
@@ -736,7 +669,7 @@ Session ID: 58a54297-2953-4b9e-baf1-39e34bdc7d49 - Test Case Failed</span>
 		<tbody>
 			<tr class='log' status='pass'>
 				<td class='status pass' title='pass' alt='pass'><i class='material-icons'>check_circle</i></td>
-				<td class='timestamp'>11:56:07 PM</td>
+				<td class='timestamp'>1:55:25 AM</td>
 				<td class='step-details'>
 						Pass Test case is: addToCartTest
 					
@@ -775,7 +708,7 @@ Session ID: 58a54297-2953-4b9e-baf1-39e34bdc7d49 - Test Case Failed</span>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Tests
-					<div class='panel-lead'>13</div>
+					<div class='panel-lead'>12</div>
 				</div>
 			</div>
 			<div class='col s2'>
@@ -787,19 +720,19 @@ Session ID: 58a54297-2953-4b9e-baf1-39e34bdc7d49 - Test Case Failed</span>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Dec 16, 2023 11:52:51 PM</div>
+					<div class='panel-lead'>Dec 20, 2023 01:52:22 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Dec 16, 2023 11:56:09 PM</div>
+			 		<div class='panel-lead'>Dec 20, 2023 01:55:27 AM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>0h 3m 18s+103ms</div>
+					<div class='panel-lead'>0h 3m 4s+535ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -842,14 +775,14 @@ Session ID: 58a54297-2953-4b9e-baf1-39e34bdc7d49 - Test Case Failed</span>
 		<!-- container -->
 		<script>
 			var statusGroup = {
-                parentCount: 13,
-				passParent: 5,
-				failParent: 8,
+                parentCount: 12,
+				passParent: 6,
+				failParent: 6,
 				fatalParent: 0,
 				errorParent: 0,
 				warningParent: 0,
 				skipParent: 0,
-				exceptionsParent: 8,
+				exceptionsParent: 6,
 				childCount: 0,
 				passChild: 0,
 				failChild: 0,
@@ -874,7 +807,7 @@ Session ID: 58a54297-2953-4b9e-baf1-39e34bdc7d49 - Test Case Failed</span>
 		</script>
 		<script>
 			var timeline = {
-			        "loginTest":1.861,"endToEndTest":8.026,"createAccountTest":11.392,"createAccountTest":11.38,"createAccountTest":11.517,"verifyCreateAccountPageTest":11.351,"verifyLogo":0.078,"verifyTitle":0.013,"productAvailabilityTest":3.385,"orderHistoryandDetailsTest":2.207,"wishListTest":12.035,"verifyTotalPrice":7.675,"addToCartTest":7.024
+			        "loginTest":1.703,"endToEndTest":8.251,"createAccountTest":11.568,"createAccountTest":11.465,"createAccountTest":11.504,"verifyCreateAccountPageTest":11.616,"verifyLogo":0.083,"verifyTitle":0.013,"productAvailabilityTest":3.404,"orderHistoryandDetailsTest":2.461,"verifyTotalPrice":7.883,"addToCartTest":7.125
 			};
 		</script>
 		<script src='http://cdn.rawgit.com/extent-framework/extent-github-cdn/b65cd69/v3html/js/extent.js' type='text/javascript'></script>

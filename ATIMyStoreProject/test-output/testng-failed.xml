@@ -17,15 +17,6 @@
           <include name="tearDown"/>
         </methods>
       </class> <!-- com.mystore.testcases.AccountCreationPageTest -->
-      <class name="com.mystore.testcases.HomePageTest">
-        <methods>
-          <include name="loadConfig"/>
-          <include name="tearDown"/>
-          <include name="afterSuite"/>
-          <include name="setup"/>
-          <include name="wishListTest" invocation-numbers="0"/>
-        </methods>
-      </class> <!-- com.mystore.testcases.HomePageTest -->
       <class name="com.mystore.testcases.OrderPageTest">
         <methods>
           <include name="loadConfig"/>
@@ -44,15 +35,6 @@
           <include name="setup"/>
         </methods>
       </class> <!-- com.mystore.testcases.EndToEndTest -->
-      <class name="com.mystore.testcases.LoginPageTest">
-        <methods>
-          <include name="loadConfig"/>
-          <include name="tearDown"/>
-          <include name="afterSuite"/>
-          <include name="loginTest" invocation-numbers="0"/>
-          <include name="setup"/>
-        </methods>
-      </class> <!-- com.mystore.testcases.LoginPageTest -->
     </classes>
   </test> <!-- Test_All_By_Firefox(failed) -->
 </suite> <!-- Failed suite [Suite] -->

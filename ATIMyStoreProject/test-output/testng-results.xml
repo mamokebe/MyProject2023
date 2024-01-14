@@ -1,32 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="14" total="27" passed="5" failed="8" skipped="0">
+<testng-results ignored="14" total="26" passed="6" failed="6" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-16T23:52:51 CST" name="Suite" finished-at="2023-12-16T23:56:09 CST" duration-ms="197889">
+  <suite started-at="2023-12-20T01:52:22 CST" name="Suite" finished-at="2023-12-20T01:55:27 CST" duration-ms="184312">
     <groups>
       <group name="Sanity">
-        <method signature="AccountCreationPageTest.verifyCreateAccountPageTest(java.lang.String)[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@6b2ea799]" name="verifyCreateAccountPageTest" class="com.mystore.testcases.AccountCreationPageTest"/>
-        <method signature="AddToCartPageTest.addToCartTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.AddToCartPageTest@62379589]" name="addToCartTest" class="com.mystore.testcases.AddToCartPageTest"/>
-        <method signature="LoginPageTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.LoginPageTest@5fe94a96]" name="loginTest" class="com.mystore.testcases.LoginPageTest"/>
+        <method signature="AccountCreationPageTest.verifyCreateAccountPageTest(java.lang.String)[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@51399530]" name="verifyCreateAccountPageTest" class="com.mystore.testcases.AccountCreationPageTest"/>
+        <method signature="AddToCartPageTest.addToCartTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.AddToCartPageTest@3754a4bf]" name="addToCartTest" class="com.mystore.testcases.AddToCartPageTest"/>
+        <method signature="LoginPageTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.LoginPageTest@639c2c1d]" name="loginTest" class="com.mystore.testcases.LoginPageTest"/>
       </group> <!-- Sanity -->
       <group name="Regression">
-        <method signature="AccountCreationPageTest.createAccountTest(java.util.HashMap)[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@6b2ea799]" name="createAccountTest" class="com.mystore.testcases.AccountCreationPageTest"/>
-        <method signature="AddToCartPageTest.addToCartTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.AddToCartPageTest@62379589]" name="addToCartTest" class="com.mystore.testcases.AddToCartPageTest"/>
-        <method signature="EndToEndTest.endToEndTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.EndToEndTest@51399530]" name="endToEndTest" class="com.mystore.testcases.EndToEndTest"/>
-        <method signature="OrderPageTest.verifyTotalPrice(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.OrderPageTest@3754a4bf]" name="verifyTotalPrice" class="com.mystore.testcases.OrderPageTest"/>
+        <method signature="AccountCreationPageTest.createAccountTest(java.util.HashMap)[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@51399530]" name="createAccountTest" class="com.mystore.testcases.AccountCreationPageTest"/>
+        <method signature="AddToCartPageTest.addToCartTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.AddToCartPageTest@3754a4bf]" name="addToCartTest" class="com.mystore.testcases.AddToCartPageTest"/>
+        <method signature="EndToEndTest.endToEndTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.EndToEndTest@6771beb3]" name="endToEndTest" class="com.mystore.testcases.EndToEndTest"/>
+        <method signature="OrderPageTest.verifyTotalPrice(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.OrderPageTest@13c9d689]" name="verifyTotalPrice" class="com.mystore.testcases.OrderPageTest"/>
       </group> <!-- Regression -->
       <group name="Smoke">
-        <method signature="HomePageTest.orderHistoryandDetailsTest(java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.HomePageTest@13c9d689]" name="orderHistoryandDetailsTest" class="com.mystore.testcases.HomePageTest"/>
-        <method signature="HomePageTest.wishListTest(java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.HomePageTest@13c9d689]" name="wishListTest" class="com.mystore.testcases.HomePageTest"/>
-        <method signature="IndexPageTest.verifyLogo()[pri:0, instance:com.mystore.testcases.IndexPageTest@411f53a0]" name="verifyLogo" class="com.mystore.testcases.IndexPageTest"/>
-        <method signature="IndexPageTest.verifyTitle()[pri:0, instance:com.mystore.testcases.IndexPageTest@411f53a0]" name="verifyTitle" class="com.mystore.testcases.IndexPageTest"/>
-        <method signature="LoginPageTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.LoginPageTest@5fe94a96]" name="loginTest" class="com.mystore.testcases.LoginPageTest"/>
-        <method signature="SearchResultPageTest.productAvailabilityTest(java.lang.String)[pri:0, instance:com.mystore.testcases.SearchResultPageTest@2b71e916]" name="productAvailabilityTest" class="com.mystore.testcases.SearchResultPageTest"/>
+        <method signature="HomePageTest.orderHistoryandDetailsTest(java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.HomePageTest@28701274]" name="orderHistoryandDetailsTest" class="com.mystore.testcases.HomePageTest"/>
+        <method signature="IndexPageTest.verifyLogo()[pri:0, instance:com.mystore.testcases.IndexPageTest@6b2ea799]" name="verifyLogo" class="com.mystore.testcases.IndexPageTest"/>
+        <method signature="IndexPageTest.verifyTitle()[pri:0, instance:com.mystore.testcases.IndexPageTest@6b2ea799]" name="verifyTitle" class="com.mystore.testcases.IndexPageTest"/>
+        <method signature="LoginPageTest.loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.LoginPageTest@639c2c1d]" name="loginTest" class="com.mystore.testcases.LoginPageTest"/>
+        <method signature="SearchResultPageTest.productAvailabilityTest(java.lang.String)[pri:0, instance:com.mystore.testcases.SearchResultPageTest@411f53a0]" name="productAvailabilityTest" class="com.mystore.testcases.SearchResultPageTest"/>
       </group> <!-- Smoke -->
     </groups>
-    <test started-at="2023-12-16T23:52:51 CST" name="Test_All_By_Firefox" finished-at="2023-12-16T23:56:09 CST" duration-ms="197889">
+    <test started-at="2023-12-20T01:52:22 CST" name="Test_All_By_Firefox" finished-at="2023-12-20T01:55:27 CST" duration-ms="184312">
       <class name="com.mystore.testcases.AccountCreationPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@6b2ea799]" started-at="2023-12-16T23:53:21 CST" name="setup" finished-at="2023-12-16T23:53:28 CST" duration-ms="6898" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@51399530]" started-at="2023-12-20T01:52:53 CST" name="setup" finished-at="2023-12-20T01:53:01 CST" duration-ms="7588" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -37,7 +36,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createAccountTest(java.util.HashMap)[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@6b2ea799]" started-at="2023-12-16T23:53:28 CST" name="createAccountTest" data-provider="newAcountDetailsData" finished-at="2023-12-16T23:53:39 CST" duration-ms="11301" status="FAIL">
+        <test-method signature="createAccountTest(java.util.HashMap)[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@51399530]" started-at="2023-12-20T01:53:01 CST" name="createAccountTest" data-provider="newAcountDetailsData" finished-at="2023-12-20T01:53:12 CST" duration-ms="11381" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -51,18 +50,18 @@
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'LAPTOP-GLK0BSKD', ip: '192.168.1.200', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [ae0e800f-42ae-4a77-bbf6-a2c5e327e8ac, actions {actions=[org.openqa.selenium.interactions.Sequence@373afd6c]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:debuggerAddress: 127.0.0.1:52366, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19680, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:52366/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ae0e800f-42ae-4a77-bbf6-a2c5e327e8ac]]>
+Command: [8b6348e0-8a70-440c-af6b-e22618315e17, actions {actions=[org.openqa.selenium.interactions.Sequence@3daf03d8]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:51181, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 25988, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:51181/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8b6348e0-8a70-440c-af6b-e22618315e17]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'LAPTOP-GLK0BSKD', ip: '192.168.1.200', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [ae0e800f-42ae-4a77-bbf6-a2c5e327e8ac, actions {actions=[org.openqa.selenium.interactions.Sequence@373afd6c]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:debuggerAddress: 127.0.0.1:52366, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19680, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:52366/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ae0e800f-42ae-4a77-bbf6-a2c5e327e8ac
+Command: [8b6348e0-8a70-440c-af6b-e22618315e17, actions {actions=[org.openqa.selenium.interactions.Sequence@3daf03d8]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:51181, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 25988, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:51181/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8b6348e0-8a70-440c-af6b-e22618315e17
 at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:362)
 at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:154)
 at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:287)
@@ -138,14 +137,14 @@ at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Delegating
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:358)
 ... 60 more
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: #id_gender2
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: #uniform\-id_gender2
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'LAPTOP-GLK0BSKD', ip: '192.168.1.200', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [ae0e800f-42ae-4a77-bbf6-a2c5e327e8ac, findElement {using=id, value=id_gender2}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:debuggerAddress: 127.0.0.1:52366, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19680, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:52366/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: ae0e800f-42ae-4a77-bbf6-a2c5e327e8ac
+Command: [8b6348e0-8a70-440c-af6b-e22618315e17, findElement {using=id, value=uniform-id_gender2}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:51181, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 25988, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:51181/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 8b6348e0-8a70-440c-af6b-e22618315e17
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -176,11 +175,11 @@ at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:82)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAccountTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@6b2ea799]" started-at="2023-12-16T23:53:39 CST" name="tearDown" finished-at="2023-12-16T23:53:41 CST" duration-ms="1111" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@51399530]" started-at="2023-12-20T01:53:12 CST" name="tearDown" finished-at="2023-12-20T01:53:14 CST" duration-ms="1711" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@6b2ea799]" started-at="2023-12-16T23:53:41 CST" name="setup" finished-at="2023-12-16T23:53:47 CST" duration-ms="6535" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@51399530]" started-at="2023-12-20T01:53:14 CST" name="setup" finished-at="2023-12-20T01:53:22 CST" duration-ms="7441" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -191,7 +190,7 @@ at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:82)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createAccountTest(java.util.HashMap)[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@6b2ea799]" started-at="2023-12-16T23:53:47 CST" name="createAccountTest" data-provider="newAcountDetailsData" finished-at="2023-12-16T23:53:58 CST" duration-ms="11279" status="FAIL">
+        <test-method signature="createAccountTest(java.util.HashMap)[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@51399530]" started-at="2023-12-20T01:53:22 CST" name="createAccountTest" data-provider="newAcountDetailsData" finished-at="2023-12-20T01:53:33 CST" duration-ms="11339" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -205,18 +204,18 @@ at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:82)
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'LAPTOP-GLK0BSKD', ip: '192.168.1.200', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [42b5394a-d6d5-4ced-9067-85ec65683cbc, actions {actions=[org.openqa.selenium.interactions.Sequence@62b6c045]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:debuggerAddress: 127.0.0.1:64116, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 25428, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:64116/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 42b5394a-d6d5-4ced-9067-85ec65683cbc]]>
+Command: [3023a038-9d41-435d-b4d7-faaefc0ffe00, actions {actions=[org.openqa.selenium.interactions.Sequence@6b27b2d0]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:57632, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 27824, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:57632/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3023a038-9d41-435d-b4d7-faaefc0ffe00]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'LAPTOP-GLK0BSKD', ip: '192.168.1.200', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [42b5394a-d6d5-4ced-9067-85ec65683cbc, actions {actions=[org.openqa.selenium.interactions.Sequence@62b6c045]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:debuggerAddress: 127.0.0.1:64116, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 25428, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:64116/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 42b5394a-d6d5-4ced-9067-85ec65683cbc
+Command: [3023a038-9d41-435d-b4d7-faaefc0ffe00, actions {actions=[org.openqa.selenium.interactions.Sequence@6b27b2d0]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:57632, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 27824, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:57632/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3023a038-9d41-435d-b4d7-faaefc0ffe00
 at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:362)
 at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:154)
 at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:287)
@@ -292,14 +291,14 @@ at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Delegating
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:358)
 ... 60 more
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: #id_gender2
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: #uniform\-id_gender2
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'LAPTOP-GLK0BSKD', ip: '192.168.1.200', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [42b5394a-d6d5-4ced-9067-85ec65683cbc, findElement {using=id, value=id_gender2}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:debuggerAddress: 127.0.0.1:64116, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 25428, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:64116/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 42b5394a-d6d5-4ced-9067-85ec65683cbc
+Command: [3023a038-9d41-435d-b4d7-faaefc0ffe00, findElement {using=id, value=uniform-id_gender2}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:57632, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 27824, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:57632/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 3023a038-9d41-435d-b4d7-faaefc0ffe00
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -330,11 +329,11 @@ at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:82)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAccountTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@6b2ea799]" started-at="2023-12-16T23:53:58 CST" name="tearDown" finished-at="2023-12-16T23:54:00 CST" duration-ms="1219" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@51399530]" started-at="2023-12-20T01:53:33 CST" name="tearDown" finished-at="2023-12-20T01:53:35 CST" duration-ms="1722" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@6b2ea799]" started-at="2023-12-16T23:54:00 CST" name="setup" finished-at="2023-12-16T23:54:07 CST" duration-ms="6862" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@51399530]" started-at="2023-12-20T01:53:35 CST" name="setup" finished-at="2023-12-20T01:53:42 CST" duration-ms="7239" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -345,7 +344,7 @@ at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:82)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="createAccountTest(java.util.HashMap)[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@6b2ea799]" started-at="2023-12-16T23:54:07 CST" name="createAccountTest" data-provider="newAcountDetailsData" finished-at="2023-12-16T23:54:18 CST" duration-ms="11425" status="FAIL">
+        <test-method signature="createAccountTest(java.util.HashMap)[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@51399530]" started-at="2023-12-20T01:53:42 CST" name="createAccountTest" data-provider="newAcountDetailsData" finished-at="2023-12-20T01:53:53 CST" duration-ms="11406" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -359,18 +358,18 @@ at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:82)
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'LAPTOP-GLK0BSKD', ip: '192.168.1.200', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [f2a2c0e2-bf64-413d-8959-af64dc35f4a4, actions {actions=[org.openqa.selenium.interactions.Sequence@15d236fd]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:debuggerAddress: 127.0.0.1:55050, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5192, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:55050/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: f2a2c0e2-bf64-413d-8959-af64dc35f4a4]]>
+Command: [c3d72e7c-abaa-4357-beba-9d69d5bf62c0, actions {actions=[org.openqa.selenium.interactions.Sequence@49232c6f]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:56905, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 27220, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:56905/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c3d72e7c-abaa-4357-beba-9d69d5bf62c0]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.json.JsonException: java.lang.reflect.InvocationTargetException
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'LAPTOP-GLK0BSKD', ip: '192.168.1.200', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [f2a2c0e2-bf64-413d-8959-af64dc35f4a4, actions {actions=[org.openqa.selenium.interactions.Sequence@15d236fd]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:debuggerAddress: 127.0.0.1:55050, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5192, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:55050/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: f2a2c0e2-bf64-413d-8959-af64dc35f4a4
+Command: [c3d72e7c-abaa-4357-beba-9d69d5bf62c0, actions {actions=[org.openqa.selenium.interactions.Sequence@49232c6f]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:56905, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 27220, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:56905/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c3d72e7c-abaa-4357-beba-9d69d5bf62c0
 at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:362)
 at org.openqa.selenium.json.JsonOutput.lambda$new$16(JsonOutput.java:154)
 at org.openqa.selenium.json.JsonOutput.write(JsonOutput.java:287)
@@ -446,14 +445,14 @@ at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(Delegating
 at java.base/java.lang.reflect.Method.invoke(Method.java:568)
 at org.openqa.selenium.json.JsonOutput.convertUsingMethod(JsonOutput.java:358)
 ... 60 more
-Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: #id_gender2
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: #uniform\-id_gender2
 For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'LAPTOP-GLK0BSKD', ip: '192.168.1.200', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [f2a2c0e2-bf64-413d-8959-af64dc35f4a4, findElement {using=id, value=id_gender2}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:debuggerAddress: 127.0.0.1:55050, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 5192, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:55050/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: f2a2c0e2-bf64-413d-8959-af64dc35f4a4
+Command: [c3d72e7c-abaa-4357-beba-9d69d5bf62c0, findElement {using=id, value=uniform-id_gender2}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:56905, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 27220, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:56905/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: c3d72e7c-abaa-4357-beba-9d69d5bf62c0
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -484,11 +483,11 @@ at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:82)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createAccountTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@6b2ea799]" started-at="2023-12-16T23:54:18 CST" name="tearDown" finished-at="2023-12-16T23:54:19 CST" duration-ms="1178" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@51399530]" started-at="2023-12-20T01:53:54 CST" name="tearDown" finished-at="2023-12-20T01:53:55 CST" duration-ms="1295" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@6b2ea799]" started-at="2023-12-16T23:54:19 CST" name="setup" finished-at="2023-12-16T23:54:26 CST" duration-ms="6528" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@51399530]" started-at="2023-12-20T01:53:55 CST" name="setup" finished-at="2023-12-20T01:54:02 CST" duration-ms="6713" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -499,7 +498,7 @@ at org.openqa.selenium.interactions.Sequence.toJson(Sequence.java:82)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyCreateAccountPageTest(java.lang.String)[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@6b2ea799]" started-at="2023-12-16T23:54:26 CST" name="verifyCreateAccountPageTest" data-provider="email" finished-at="2023-12-16T23:54:37 CST" duration-ms="11277" status="FAIL">
+        <test-method signature="verifyCreateAccountPageTest(java.lang.String)[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@51399530]" started-at="2023-12-20T01:54:02 CST" name="verifyCreateAccountPageTest" data-provider="email" finished-at="2023-12-20T01:54:13 CST" duration-ms="11512" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -552,13 +551,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyCreateAccountPageTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@6b2ea799]" started-at="2023-12-16T23:54:37 CST" name="tearDown" finished-at="2023-12-16T23:54:38 CST" duration-ms="1107" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.AccountCreationPageTest@51399530]" started-at="2023-12-20T01:54:13 CST" name="tearDown" finished-at="2023-12-20T01:54:15 CST" duration-ms="1353" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mystore.testcases.AccountCreationPageTest -->
       <class name="com.mystore.testcases.EndToEndTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.EndToEndTest@51399530]" started-at="2023-12-16T23:53:04 CST" name="setup" finished-at="2023-12-16T23:53:11 CST" duration-ms="7080" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.EndToEndTest@6771beb3]" started-at="2023-12-20T01:52:36 CST" name="setup" finished-at="2023-12-20T01:52:43 CST" duration-ms="7117" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -569,7 +568,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="endToEndTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.EndToEndTest@51399530]" started-at="2023-12-16T23:53:11 CST" name="endToEndTest" data-provider="getProduct" finished-at="2023-12-16T23:53:19 CST" duration-ms="7880" status="FAIL">
+        <test-method signature="endToEndTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.EndToEndTest@6771beb3]" started-at="2023-12-20T01:52:43 CST" name="endToEndTest" data-provider="getProduct" finished-at="2023-12-20T01:52:51 CST" duration-ms="7989" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -593,18 +592,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'LAPTOP-GLK0BSKD', ip: '192.168.1.200', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [de831930-e22c-44c5-bac5-4ca8c683891c, actions {actions=[org.openqa.selenium.interactions.Sequence@2b736fee]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:debuggerAddress: 127.0.0.1:58618, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13380, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:58618/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: de831930-e22c-44c5-bac5-4ca8c683891c]]>
+Command: [b8e4e31f-9c6b-45a3-a588-082150cac24b, actions {actions=[org.openqa.selenium.interactions.Sequence@78b7f805]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:61835, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23380, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:61835/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b8e4e31f-9c6b-45a3-a588-082150cac24b]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Origin element <span> is not displayed
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'LAPTOP-GLK0BSKD', ip: '192.168.1.200', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [de831930-e22c-44c5-bac5-4ca8c683891c, actions {actions=[org.openqa.selenium.interactions.Sequence@2b736fee]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:debuggerAddress: 127.0.0.1:58618, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 13380, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:58618/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: de831930-e22c-44c5-bac5-4ca8c683891c
+Command: [b8e4e31f-9c6b-45a3-a588-082150cac24b, actions {actions=[org.openqa.selenium.interactions.Sequence@78b7f805]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:61835, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 23380, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:61835/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: b8e4e31f-9c6b-45a3-a588-082150cac24b
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -656,13 +655,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endToEndTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.EndToEndTest@51399530]" started-at="2023-12-16T23:53:19 CST" name="tearDown" finished-at="2023-12-16T23:53:21 CST" duration-ms="1725" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.EndToEndTest@6771beb3]" started-at="2023-12-20T01:52:51 CST" name="tearDown" finished-at="2023-12-20T01:52:53 CST" duration-ms="1874" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mystore.testcases.EndToEndTest -->
       <class name="com.mystore.testcases.SearchResultPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.SearchResultPageTest@2b71e916]" started-at="2023-12-16T23:54:55 CST" name="setup" finished-at="2023-12-16T23:55:02 CST" duration-ms="6494" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.SearchResultPageTest@411f53a0]" started-at="2023-12-20T01:54:32 CST" name="setup" finished-at="2023-12-20T01:54:39 CST" duration-ms="7001" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -673,7 +672,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="productAvailabilityTest(java.lang.String)[pri:0, instance:com.mystore.testcases.SearchResultPageTest@2b71e916]" started-at="2023-12-16T23:55:02 CST" name="productAvailabilityTest" data-provider="searchProduct" finished-at="2023-12-16T23:55:05 CST" duration-ms="3386" status="PASS">
+        <test-method signature="productAvailabilityTest(java.lang.String)[pri:0, instance:com.mystore.testcases.SearchResultPageTest@411f53a0]" started-at="2023-12-20T01:54:39 CST" name="productAvailabilityTest" data-provider="searchProduct" finished-at="2023-12-20T01:54:42 CST" duration-ms="3404" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -684,13 +683,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- productAvailabilityTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.SearchResultPageTest@2b71e916]" started-at="2023-12-16T23:55:05 CST" name="tearDown" finished-at="2023-12-16T23:55:06 CST" duration-ms="1318" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.SearchResultPageTest@411f53a0]" started-at="2023-12-20T01:54:42 CST" name="tearDown" finished-at="2023-12-20T01:54:44 CST" duration-ms="1314" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mystore.testcases.SearchResultPageTest -->
       <class name="com.mystore.testcases.AddToCartPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.AddToCartPageTest@62379589]" started-at="2023-12-16T23:55:53 CST" name="setup" finished-at="2023-12-16T23:56:00 CST" duration-ms="6984" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.AddToCartPageTest@3754a4bf]" started-at="2023-12-20T01:55:11 CST" name="setup" finished-at="2023-12-20T01:55:18 CST" duration-ms="6898" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -701,7 +700,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="addToCartTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.AddToCartPageTest@62379589]" started-at="2023-12-16T23:56:00 CST" name="addToCartTest" data-provider="getProduct" finished-at="2023-12-16T23:56:07 CST" duration-ms="7024" status="PASS">
+        <test-method signature="addToCartTest(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.AddToCartPageTest@3754a4bf]" started-at="2023-12-20T01:55:18 CST" name="addToCartTest" data-provider="getProduct" finished-at="2023-12-20T01:55:25 CST" duration-ms="7124" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -722,13 +721,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- addToCartTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.AddToCartPageTest@62379589]" started-at="2023-12-16T23:56:07 CST" name="tearDown" finished-at="2023-12-16T23:56:09 CST" duration-ms="1194" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.AddToCartPageTest@3754a4bf]" started-at="2023-12-20T01:55:25 CST" name="tearDown" finished-at="2023-12-20T01:55:27 CST" duration-ms="1250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mystore.testcases.AddToCartPageTest -->
       <class name="com.mystore.testcases.IndexPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.IndexPageTest@411f53a0]" started-at="2023-12-16T23:54:38 CST" name="setup" finished-at="2023-12-16T23:54:45 CST" duration-ms="7151" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.IndexPageTest@6b2ea799]" started-at="2023-12-20T01:54:15 CST" name="setup" finished-at="2023-12-20T01:54:22 CST" duration-ms="7497" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -739,15 +738,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyLogo()[pri:0, instance:com.mystore.testcases.IndexPageTest@411f53a0]" started-at="2023-12-16T23:54:45 CST" name="verifyLogo" finished-at="2023-12-16T23:54:45 CST" duration-ms="79" status="PASS">
+        <test-method signature="verifyLogo()[pri:0, instance:com.mystore.testcases.IndexPageTest@6b2ea799]" started-at="2023-12-20T01:54:22 CST" name="verifyLogo" finished-at="2023-12-20T01:54:22 CST" duration-ms="83" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLogo -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.IndexPageTest@411f53a0]" started-at="2023-12-16T23:54:45 CST" name="tearDown" finished-at="2023-12-16T23:54:47 CST" duration-ms="1358" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.IndexPageTest@6b2ea799]" started-at="2023-12-20T01:54:22 CST" name="tearDown" finished-at="2023-12-20T01:54:24 CST" duration-ms="1508" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.IndexPageTest@411f53a0]" started-at="2023-12-16T23:54:47 CST" name="setup" finished-at="2023-12-16T23:54:54 CST" duration-ms="6822" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.IndexPageTest@6b2ea799]" started-at="2023-12-20T01:54:24 CST" name="setup" finished-at="2023-12-20T01:54:31 CST" duration-ms="6916" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -758,17 +757,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyTitle()[pri:0, instance:com.mystore.testcases.IndexPageTest@411f53a0]" started-at="2023-12-16T23:54:54 CST" name="verifyTitle" finished-at="2023-12-16T23:54:54 CST" duration-ms="13" status="PASS">
+        <test-method signature="verifyTitle()[pri:0, instance:com.mystore.testcases.IndexPageTest@6b2ea799]" started-at="2023-12-20T01:54:31 CST" name="verifyTitle" finished-at="2023-12-20T01:54:31 CST" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTitle -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.IndexPageTest@411f53a0]" started-at="2023-12-16T23:54:54 CST" name="tearDown" finished-at="2023-12-16T23:54:55 CST" duration-ms="1263" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.IndexPageTest@6b2ea799]" started-at="2023-12-20T01:54:31 CST" name="tearDown" finished-at="2023-12-20T01:54:32 CST" duration-ms="1462" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mystore.testcases.IndexPageTest -->
       <class name="com.mystore.testcases.OrderPageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.OrderPageTest@3754a4bf]" started-at="2023-12-16T23:55:38 CST" name="setup" finished-at="2023-12-16T23:55:44 CST" duration-ms="6693" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.OrderPageTest@13c9d689]" started-at="2023-12-20T01:54:54 CST" name="setup" finished-at="2023-12-20T01:55:02 CST" duration-ms="7346" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -779,7 +778,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verifyTotalPrice(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.OrderPageTest@3754a4bf]" started-at="2023-12-16T23:55:44 CST" name="verifyTotalPrice" data-provider="getProduct" finished-at="2023-12-16T23:55:52 CST" duration-ms="7522" status="FAIL">
+        <test-method signature="verifyTotalPrice(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.OrderPageTest@13c9d689]" started-at="2023-12-20T01:55:02 CST" name="verifyTotalPrice" data-provider="getProduct" finished-at="2023-12-20T01:55:10 CST" duration-ms="7751" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -803,18 +802,18 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'LAPTOP-GLK0BSKD', ip: '192.168.1.200', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [58a54297-2953-4b9e-baf1-39e34bdc7d49, actions {actions=[org.openqa.selenium.interactions.Sequence@29bd2796]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:debuggerAddress: 127.0.0.1:57365, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 26424, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:57365/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 58a54297-2953-4b9e-baf1-39e34bdc7d49]]>
+Command: [16fc4655-5ae5-4942-b516-1221973c07d7, actions {actions=[org.openqa.selenium.interactions.Sequence@571d0925]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:63514, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19260, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:63514/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 16fc4655-5ae5-4942-b516-1221973c07d7]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.interactions.MoveTargetOutOfBoundsException: Origin element <span> is not displayed
 Build info: version: '4.4.0', revision: 'e5c75ed026a'
 System info: host: 'LAPTOP-GLK0BSKD', ip: '192.168.1.200', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.8'
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Command: [58a54297-2953-4b9e-baf1-39e34bdc7d49, actions {actions=[org.openqa.selenium.interactions.Sequence@29bd2796]}]
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 120.0.1, moz:accessibilityChecks: false, moz:buildID: 20231129155202, moz:debuggerAddress: 127.0.0.1:57365, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 26424, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:57365/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: 58a54297-2953-4b9e-baf1-39e34bdc7d49
+Command: [16fc4655-5ae5-4942-b516-1221973c07d7, actions {actions=[org.openqa.selenium.interactions.Sequence@571d0925]}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 121.0, moz:accessibilityChecks: false, moz:buildID: 20231211174248, moz:debuggerAddress: 127.0.0.1:63514, moz:geckodriverVersion: 0.33.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 19260, moz:profile: C:\Users\kebed\AppData\Loca..., moz:shutdownTimeout: 60000, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://127.0.0.1:63514/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 16fc4655-5ae5-4942-b516-1221973c07d7
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -866,13 +865,13 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyTotalPrice -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.OrderPageTest@3754a4bf]" started-at="2023-12-16T23:55:52 CST" name="tearDown" finished-at="2023-12-16T23:55:53 CST" duration-ms="1332" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.OrderPageTest@13c9d689]" started-at="2023-12-20T01:55:10 CST" name="tearDown" finished-at="2023-12-20T01:55:11 CST" duration-ms="1535" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mystore.testcases.OrderPageTest -->
       <class name="com.mystore.testcases.HomePageTest">
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.HomePageTest@13c9d689]" started-at="2023-12-16T23:55:06 CST" name="setup" finished-at="2023-12-16T23:55:13 CST" duration-ms="6795" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.HomePageTest@28701274]" started-at="2023-12-20T01:54:44 CST" name="setup" finished-at="2023-12-20T01:54:51 CST" duration-ms="6773" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -883,7 +882,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="orderHistoryandDetailsTest(java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.HomePageTest@13c9d689]" started-at="2023-12-16T23:55:13 CST" name="orderHistoryandDetailsTest" data-provider="credentials" finished-at="2023-12-16T23:55:15 CST" duration-ms="2208" status="PASS">
+        <test-method signature="orderHistoryandDetailsTest(java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.HomePageTest@28701274]" started-at="2023-12-20T01:54:51 CST" name="orderHistoryandDetailsTest" data-provider="credentials" finished-at="2023-12-20T01:54:53 CST" duration-ms="2460" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -899,90 +898,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- orderHistoryandDetailsTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.HomePageTest@13c9d689]" started-at="2023-12-16T23:55:15 CST" name="tearDown" finished-at="2023-12-16T23:55:17 CST" duration-ms="1276" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.HomePageTest@13c9d689]" started-at="2023-12-16T23:55:17 CST" name="setup" finished-at="2023-12-16T23:55:24 CST" duration-ms="7693" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[FireFox]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="wishListTest(java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.HomePageTest@13c9d689]" started-at="2023-12-16T23:55:24 CST" name="wishListTest" data-provider="credentials" finished-at="2023-12-16T23:55:36 CST" duration-ms="11907" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[kebede@xyz.com]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin@123]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [true] but found [false]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertTrue(Assert.java:45)
-at org.testng.Assert.assertTrue(Assert.java:55)
-at com.mystore.testcases.HomePageTest.wishListTest(HomePageTest.java:47)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- wishListTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.HomePageTest@13c9d689]" started-at="2023-12-16T23:55:36 CST" name="tearDown" finished-at="2023-12-16T23:55:38 CST" duration-ms="1245" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.HomePageTest@28701274]" started-at="2023-12-20T01:54:53 CST" name="tearDown" finished-at="2023-12-20T01:54:54 CST" duration-ms="1283" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.mystore.testcases.HomePageTest -->
       <class name="com.mystore.testcases.LoginPageTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.LoginPageTest@5fe94a96]" started-at="2023-12-16T23:52:50 CST" name="loadConfig" finished-at="2023-12-16T23:52:51 CST" duration-ms="212" status="PASS">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mystore.testcases.LoginPageTest@639c2c1d]" started-at="2023-12-20T01:52:22 CST" name="loadConfig" finished-at="2023-12-20T01:52:22 CST" duration-ms="234" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.LoginPageTest@5fe94a96]" started-at="2023-12-16T23:52:51 CST" name="setup" finished-at="2023-12-16T23:53:00 CST" duration-ms="8956" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testcases.LoginPageTest@639c2c1d]" started-at="2023-12-20T01:52:23 CST" name="setup" finished-at="2023-12-20T01:52:32 CST" duration-ms="9073" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -993,7 +919,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.LoginPageTest@5fe94a96]" started-at="2023-12-16T23:53:00 CST" name="loginTest" data-provider="credentials" finished-at="2023-12-16T23:53:02 CST" duration-ms="1618" status="FAIL">
+        <test-method signature="loginTest(java.lang.String,java.lang.String)[pri:0, instance:com.mystore.testcases.LoginPageTest@639c2c1d]" started-at="2023-12-20T01:52:32 CST" name="loginTest" data-provider="credentials" finished-at="2023-12-20T01:52:34 CST" duration-ms="1707" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -1006,58 +932,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [http://www.automationpractice.pl/index.php?controller=my-account] but found [http://www.automationpractice.pl/index.php?controller=authentication&back=my-account]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [http://www.automationpractice.pl/index.php?controller=my-account] but found [http://www.automationpractice.pl/index.php?controller=authentication&back=my-account]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at com.mystore.testcases.LoginPageTest.loginTest(LoginPageTest.java:50)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:568)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.LoginPageTest@5fe94a96]" started-at="2023-12-16T23:53:02 CST" name="tearDown" finished-at="2023-12-16T23:53:04 CST" duration-ms="1903" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mystore.testcases.LoginPageTest@639c2c1d]" started-at="2023-12-20T01:52:34 CST" name="tearDown" finished-at="2023-12-20T01:52:36 CST" duration-ms="1990" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.mystore.testcases.LoginPageTest@5fe94a96]" started-at="2023-12-16T23:56:09 CST" name="afterSuite" finished-at="2023-12-16T23:56:09 CST" duration-ms="280" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.mystore.testcases.LoginPageTest@639c2c1d]" started-at="2023-12-20T01:55:27 CST" name="afterSuite" finished-at="2023-12-20T01:55:27 CST" duration-ms="326" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->

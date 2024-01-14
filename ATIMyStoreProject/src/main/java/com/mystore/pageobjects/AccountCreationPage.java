@@ -11,7 +11,7 @@ import com.mystore.actiondriver.Action;
 import com.mystore.base.BaseClass;
 
 /**
- * @author kebed
+ * @author kebede Bekele
  */
 public class AccountCreationPage extends BaseClass {
 	
@@ -23,7 +23,7 @@ public class AccountCreationPage extends BaseClass {
 	@FindBy(id = "uniform-id_gender1")
 	private WebElement mr;
 	
-	@FindBy(id = "uniform-id_gender2")
+	@FindBy(xpath = "//input[@id='id_gender2'")
 	private WebElement mrs;
 
 	@FindBy(name = "customer_firstname")

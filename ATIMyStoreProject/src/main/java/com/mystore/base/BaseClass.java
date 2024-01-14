@@ -1,6 +1,7 @@
 package com.mystore.base;
 
 import java.io.FileInputStream;
+
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.time.Duration;
@@ -24,6 +25,13 @@ import com.mystore.utility.ExtentManager;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
+
+/**
+ * @author kebede: BaseClass is used to load the config file and Initialize WebDriver
+ * 
+ * 
+ */
+
 public class BaseClass {
 	
 	//private static Actions action;
@@ -34,6 +42,7 @@ public class BaseClass {
 	//Declare ThreadLocal Driver
 	public static ThreadLocal<RemoteWebDriver> driver= new ThreadLocal<>();
 	
+	//LoadConfig method is to load the configuration
 	@BeforeSuite(groups = {"Smoke","Sanity","Regression"})
 	public void loadConfig() {
 		ExtentManager.setExtent();
