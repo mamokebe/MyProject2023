@@ -17,7 +17,7 @@ public class AddressPage extends BaseClass{
 	
 	Action action= new Action();
 	
-	@FindBy(xpath="//span[text()='Proceed to checkout']")
+	@FindBy(xpath="//button[@name='processAddress']//span[contains(text(),'Proceed to checkout')]")
 	private WebElement proceedToCheckOut;
 	
 	public AddressPage() {

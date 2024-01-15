@@ -25,10 +25,10 @@ public class AddToCartPage extends BaseClass{
 	@FindBy(xpath="//span[text()='Add to cart']")
 	private WebElement addToCartBtn;
 	
-	@FindBy(xpath="//*[@id=\"layer_cart\"]//h2/i")
+	@FindBy(xpath="//h2[normalize-space()='Product successfully added to your shopping cart']")
 	private WebElement addToCartMessag;
 	
-	@FindBy(xpath="//span[contains(text(),'Proceed to checkout')]")
+	@FindBy(xpath="//span[normalize-space()='Proceed to checkout']")
 	private WebElement proceedToCheckOutBtn;
 	
 	public AddToCartPage() {

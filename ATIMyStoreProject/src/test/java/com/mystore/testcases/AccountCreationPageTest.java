@@ -65,16 +65,17 @@ public class AccountCreationPageTest extends BaseClass{
 				hashMapValue.get("SetPassword"),
 				hashMapValue.get("Day"),
 				hashMapValue.get("Month"),
-				hashMapValue.get("Year"),
-				hashMapValue.get("Company"),
-				hashMapValue.get("Address"),
+				hashMapValue.get("Year")
+				/*hashMapValue.get("Company"),
+			    hashMapValue.get("Address"),
 				hashMapValue.get("City"),
 				hashMapValue.get("State"),
 				hashMapValue.get("Zipcode"),
 				hashMapValue.get("Country"),
-				hashMapValue.get("MobilePhone"));
+				hashMapValue.get("MobilePhone")*/
+				);
 		homePage=acountCreationPage.validateRegistration();
-		Assert.assertEquals("http://www.automationpractice.pl/index.php?controller=authentication&back=my-account#account-creation", homePage.getCurrentURL());
+		Assert.assertEquals("http://www.automationpractice.pl/index.php?controller=my-account", homePage.getCurrentURL());
 		Log.endTestCase("createAccountTest");
 	}
 

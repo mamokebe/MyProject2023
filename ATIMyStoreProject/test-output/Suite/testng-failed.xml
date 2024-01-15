@@ -7,16 +7,6 @@
   <test thread-count="5" name="Test_All_By_Firefox(failed)">
     <parameter name="browser" value="FireFox"/>
     <classes>
-      <class name="com.mystore.testcases.AccountCreationPageTest">
-        <methods>
-          <include name="loadConfig"/>
-          <include name="afterSuite"/>
-          <include name="verifyCreateAccountPageTest" invocation-numbers="0"/>
-          <include name="setup"/>
-          <include name="createAccountTest" invocation-numbers="0 1 2"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.mystore.testcases.AccountCreationPageTest -->
       <class name="com.mystore.testcases.OrderPageTest">
         <methods>
           <include name="loadConfig"/>

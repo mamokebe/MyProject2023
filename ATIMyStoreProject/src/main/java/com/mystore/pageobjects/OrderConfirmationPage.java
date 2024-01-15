@@ -17,7 +17,7 @@ public class OrderConfirmationPage extends BaseClass{
 	
 	Action action= new Action();
 	
-	@FindBy(xpath="//p/strong[contains(text(),'Your order on My Store is complete.')]")
+	@FindBy(xpath="//p[@class='alert alert-success']")
 	private WebElement confirmMessag;
 	
 	public OrderConfirmationPage() {

@@ -23,7 +23,7 @@ public class AccountCreationPage extends BaseClass {
 	@FindBy(id = "uniform-id_gender1")
 	private WebElement mr;
 	
-	@FindBy(xpath = "//input[@id='id_gender2'")
+	@FindBy(id = "uniform-id_gender2")
 	private WebElement mrs;
 
 	@FindBy(name = "customer_firstname")
@@ -31,10 +31,10 @@ public class AccountCreationPage extends BaseClass {
 
 	@FindBy(name = "customer_lastname")
 	private WebElement lastName;
-
-	@FindBy(name = "passwd")
+	
+	@FindBy(name = "passwd") 
 	private WebElement passWord;
-
+	 
 	@FindBy(name = "days")
 	private WebElement days;
 
@@ -44,38 +44,30 @@ public class AccountCreationPage extends BaseClass {
 	@FindBy(name = "years")
 	private WebElement years;
 
-	@FindBy(name = "firstname")
-	private WebElement customerNirstName;
-
-	@FindBy(name = "lastname")
-	private WebElement customerLastName;
-
-	@FindBy(name = "company")
-	private WebElement companyName;
-
-	@FindBy(name = "address1")
-	private WebElement address;
-
-	@FindBy(name = "city")
-	private WebElement city;
-
-	@FindBy(name = "id_state")
-	private WebElement state;
-
-	@FindBy(name = "postcode")
-	private WebElement postCode;
-
-	@FindBy(name = "id_country")
-	private WebElement country;
-
-	@FindBy(name = "phone")
-	private WebElement phone;
-
-	@FindBy(name = "phone_mobile")
-	private WebElement mobile;
-
-	@FindBy(name = "alias")
-	private WebElement ref;
+	/*
+	 * @FindBy(name = "firstname") private WebElement customerNirstName;
+	 * 
+	 * @FindBy(name = "lastname") private WebElement customerLastName;
+	 * 
+	 * @FindBy(name = "company") private WebElement companyName;
+	 * 
+	 * @FindBy(name = "address1") private WebElement address;
+	 * 
+	 * @FindBy(name = "city") private WebElement city;
+	 * 
+	 * @FindBy(name = "id_state") private WebElement state;
+	 * 
+	 * @FindBy(name = "postcode") private WebElement postCode;
+	 * 
+	 * @FindBy(name = "id_country") private WebElement country;
+	 * 
+	 * @FindBy(name = "phone") private WebElement phone;
+	 * 
+	 * @FindBy(name = "phone_mobile") private WebElement mobile;
+	 * 
+	 * @FindBy(name = "alias") private WebElement ref;
+	 */
+	 
 
 	@FindBy(name = "submitAccount")
 	private WebElement registerBtn;
@@ -89,14 +81,15 @@ public class AccountCreationPage extends BaseClass {
 			String pswd, 
 			String day, 
 			String month, 
-			String year,
-			String comPany, 
+			String year
+			/*String comPany, 
 			String addr, 
 			String cityString, 
 			String stateName, 
 			String zip, 
-			String countryName,
-			String mobilePhone) throws Throwable {
+		    String countryName,
+			String mobilePhone*/
+			) throws Throwable {
 		
 		if(gender.equalsIgnoreCase("Mr")) {
 			action.click(getDriver(), mr);
@@ -110,13 +103,16 @@ public class AccountCreationPage extends BaseClass {
 		action.selectByValue(days, day);
 		action.selectByValue(months, month);
 		action.selectByValue(years, year);
-		action.type(companyName, comPany);
-		action.type(address, addr);
-		action.type(city, cityString);
-		action.selectByVisibleText(stateName, state);
-		action.type(postCode, zip);
-		action.selectByVisibleText(countryName, country);
-		action.type(mobile, mobilePhone);
+		/*
+		 * action.type(companyName, comPany); 
+		 * action.type(address, addr);
+		 * action.type(city, cityString); 
+		 * action.selectByVisibleText(stateName, state);
+		 * action.type(postCode, zip);
+		 * action.selectByVisibleText(countryName, country);
+		 * action.type(mobile, mobilePhone);
+		 */
+		 
 	}
 	
 	public HomePage validateRegistration() throws Throwable {

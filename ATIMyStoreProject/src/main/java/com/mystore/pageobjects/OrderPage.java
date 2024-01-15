@@ -17,13 +17,13 @@ public class OrderPage extends BaseClass{
 	
 	Action action= new Action();
 	
-	@FindBy(xpath="//td[@class='cart_unit']/span/span")
+	@FindBy(xpath="//td[@class='cart_unit']")
 	private WebElement unitPrice;
 	
 	@FindBy(id="total_price")
 	private WebElement totalPrice;
 	
-	@FindBy(xpath="//span[normalize-space()='Proceed to checkout']")
+	@FindBy(xpath="//a[@class='button btn btn-default standard-checkout button-medium']//span[contains(text(),'Proceed to checkout')]")
 	private WebElement proceedToCheckOut;
 	
 	public OrderPage() {
